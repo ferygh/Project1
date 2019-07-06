@@ -45,5 +45,10 @@ def cpu():
     response = output.communicate()
     return (response)
 
+@app.route('/wind')
+def wind():
+    return ("1234")
+
+
 if __name__ == '__main__':
      app.run(host='0.0.0.0')
