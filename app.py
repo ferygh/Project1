@@ -47,7 +47,7 @@ def cpu():
 
 @app.route('/wind')
 def wind():
-    return ("123456")
+    return ("1234567")
 
 
 if __name__ == '__main__':
